@@ -21,7 +21,7 @@ router.post('/', async (req, res) => {
 });
 
 // Obtener todos los usuarios
-router.get('/', async (req, res) => {
+router.get('/users', async (req, res) => {
     try {
         const users = await UserSchema.find();
         res.json(users);
