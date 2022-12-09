@@ -18,8 +18,5 @@
     "mongoose": "^6.8.0",
     "morgan": "^1.10.0",
     "start": "^5.1.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
   }
 }
